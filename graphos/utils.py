@@ -5,7 +5,8 @@ import uuid
 import random
 import string
 
-from django.utils import six, timezone
+import six
+from django.utils import timezone
 from django.utils.encoding import force_text
 from django.utils.functional import Promise
 from django.db.models.query import QuerySet
